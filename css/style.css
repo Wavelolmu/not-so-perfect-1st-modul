@@ -1,0 +1,169 @@
+@import "reset.css";
+
+@font-face {
+    font-family: 'Neue Machina';
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/neuemachina.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Soyuz';
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/souyz/soyuzgrotesk.otf") format("opentype");
+    src: url("../fonts/souyz/soyuzgrotesk.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Misto';
+    src: url("../fonts/misto/misto.eot") format("opentype");
+    src: url("../fonts/misto/misto.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/misto/misto.woff") format("woff"),
+         url("../fonts/misto/misto.ttf")  format("truetype"),
+         url("../fonts/misto/misto.svg#svgMisto") format("svg");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FB4F27;
+  width: 71.4vw;
+  margin: 0px auto;
+  font-family: 'Neue Machina'
+}
+
+#notImg {
+  height: 132px;
+  position: absolute;
+  z-index: 2;
+  top: 150px;
+  left: 56px;
+}
+
+#headerGif {
+  height: 770px;
+  top: 30px;
+  right: 28px;
+  position: absolute;
+  z-index: 0;
+}
+
+#headerMisto {
+  position: relative;
+  z-index: 1;
+  top: 218px;
+  right: 94px;
+  font-family: 'misto';
+  font-size: 160px;
+  line-height: 140px;
+}
+
+h1 + p {
+  color: white;
+  font-size: 14px;
+  line-height: 20px;
+  position: relative;
+  right: 94px;
+  top: 224px;
+}
+
+#introduction {
+  top: 240px;
+  width: 692px;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 808px auto 332px auto;
+}
+
+h2 {
+  font-family: 'misto';
+  font-size: 100px;
+}
+
+.illustration,
+.illustrationRight {
+  width: 664px;
+  margin-top: 52px;
+  margin-bottom: 26px;
+}
+
+.illustrationRight {
+  display: block;
+  margin-left: auto;
+}
+
+#ill1 {
+  width: 658px;
+  margin-left: -34px;
+}
+
+#ill2 {
+  margin-right: -70px;
+}
+
+#ill3 {
+  margin-left: -100px;
+}
+
+.thesis,
+.thesisRight {
+  width: 858px;
+  padding: 38px 62px 38px 68px;
+  background-color: white;
+  border: solid 4px black;
+  margin-bottom: 26px;
+}
+
+.thesisRight {
+  margin-left: auto;
+}
+
+.cross {
+  position: absolute;
+  height: 26px;
+  margin-top: -22px;
+  margin-left: -44px;
+}
+
+.crossSolution {
+  position: absolute;
+  height: 26px;
+  margin-top: -16px;
+  margin-left: -44px;
+}
+
+h3 {
+  font-family: 'soyuz';
+  font-size: 36px;
+}
+
+h3 + p {
+  margin-top: 16px;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.solution,
+.solutionRight {
+  margin-left: auto;
+  width: 492px;
+  padding: 30px 60px 30px 64px;
+  background-color: white;
+  border: solid 4px black;
+  z-index: 1;
+  filter: drop-shadow(-12px 14px 0px black);
+  margin-bottom: 180px;
+}
+
+.solutionRight {
+  margin-left: 0;
+  margin-right: auto !important;
+  width: 492px;
+}
+
+.solution p {
+  line-height: 24px;
+}
