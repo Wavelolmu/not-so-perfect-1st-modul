@@ -232,3 +232,30 @@ ul {
   list-style-type: disc;
   list-style-position: inside;
 }
+
+#last {
+  margin-bottom: 180px;
+}
+
+#author {
+  width: 438px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 100px 0 12px;
+}
+
+#links {
+  display: inline;
+  width: 438px;
+  margin-left: 32px;
+  line-height: 52px;
+}
+
+a {
+  transition: all 0.1s ease-in;
+  margin-left: 40px;
+}
+
+a:hover {
+  color: #FB4F27;
+}
