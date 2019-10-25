@@ -32,7 +32,7 @@ body {
   background-color: #FB4F27;
   width: 71.4vw;
   margin: 0px auto;
-  font-family: 'Neue Machina'
+  font-family: 'Neue Machina';
 }
 
 #notImg {
@@ -86,7 +86,7 @@ h2 {
 .illustration,
 .illustrationRight {
   width: 664px;
-  margin-top: 52px;
+  margin-top: 60px;
   margin-bottom: 26px;
 }
 
@@ -101,11 +101,43 @@ h2 {
 }
 
 #ill2 {
-  margin-right: -70px;
+  margin-right: -92px;
 }
 
 #ill3 {
   margin-left: -100px;
+  margin-top: -16px;
+}
+
+#ill4 {
+  width: 668px;
+  margin-left: -100px;
+  margin-top: -12px;
+  margin-bottom: 20px;
+}
+
+#ill5 {
+  margin-right: -40px;
+
+}
+
+#ill6 {
+  width: 624px;
+  margin-bottom: 20px;
+}
+
+#ill7 {
+  margin-right: -50px;
+  margin-top: -20px;
+  margin-left: -50px;
+}
+
+#ill8 {
+  margin-right: -124px;
+}
+
+#ill9 {
+  margin-right: -82px;
 }
 
 .thesis,
@@ -164,6 +196,39 @@ h3 + p {
   width: 492px;
 }
 
-.solution p {
+.solution p, .solutionRight p {
   line-height: 24px;
+}
+
+#lastDisadvantage {
+  margin-bottom: 80px;
+}
+
+#gradient {
+  margin-left: -14.29vw;
+  width: 100vw;
+  height: 212px;
+  background-image: linear-gradient(#FB4F27, white);
+}
+
+#advantages {
+  margin-left: -14.29vw;
+  width: 100vw;
+  background-color: white;
+  color: #0800FF;
+  padding: 80px 14.29vw;
+}
+
+.blue {
+  border: solid 4px #0800FF;
+  filter: drop-shadow(-12px 14px 0px #0800FF);
+  margin-bottom: 180px;
+}
+
+ul {
+  margin-top: 12px;
+  line-height: 28px;
+  font-size: 18px;
+  list-style-type: disc;
+  list-style-position: inside;
 }
